@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import AppBar from './components/AppBar'
+import React from 'react';
+import Header from './components/Header/Header';
+import Products from './components/Products/Products';
 
 function App() {
   return (
-    <div className="App">
-      <AppBar/>
+    <div>
+      <Header/>
+      <Products/>
     </div>
   );
 }
