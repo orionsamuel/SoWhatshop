@@ -7,9 +7,9 @@ import Cart from './components/Cart/Cart';
 function App() {
   return (
     <Provider>
-      <Header />
-      <Products />
-      <Cart />
+      <Header/>
+      <Products/>
+      <Cart/>
     </Provider>
   );
 }
